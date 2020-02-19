@@ -1,0 +1,42 @@
+{
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings_json.md",
+    "SettingsVersion": 1.2,
+
+   "DefaultSensors": {
+    "Barometer": {
+         "SensorType": 1,
+         "Enabled" : true
+    },
+    "Imu": {
+         "SensorType": 2,
+         "Enabled" : true
+    },
+    "Gps": {
+         "SensorType": 3,
+         "Enabled" : true
+    },
+    "Magnetometer": {
+         "SensorType": 4,
+         "Enabled" : true
+    },
+    "Distance": {
+         "SensorType": 5,
+         "Enabled" : true
+    },
+    "Lidar2": { 
+         "SensorType": 6,
+         "Enabled" : true,
+		 "NumberOfChannels": 2,
+		 "HorizontalFOVStart": -45,
+		 "HorizontalFOVEnd": 45,
+		 "RotationsPerSecond": 8,
+		 "X": 0, "Y": 0, "Z": -1,
+		 "VerticalFOVUpper": 10,
+		 "VerticalFOVLower": 0,
+		 "Roll": 0, "Pitch": 0, "Yaw" : 0,
+		 "DrawDebugPoints": true,
+         "PointsPerSecond": 60
+    }
+	}
+}
+
